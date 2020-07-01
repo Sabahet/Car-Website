@@ -1,0 +1,206 @@
+body {
+	margin: 10;
+	padding: 10;
+	font-family: 'Arial', 'serif';
+}
+
+/*=======================
+	Navigation Bar
+================================*/
+
+.nav {
+	background-color: #595959;
+	color: #ffffff;
+
+	/*gets rid of bullet points*/
+	list-style: none;
+
+	text-align: center;
+
+	/*top left bottom right*/
+	padding: 20px 0 20px 0;
+}
+
+.nav > li {
+	/*displays the list on a horizontal line*/
+	display: inline-block;
+
+	/*spaces out each link*/
+	padding-right: 50px;
+}
+
+.nav > li > a {
+	/*gets rid of text being underlined*/
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav > li > a:hover{
+	/*nav text changes color when hovering*/
+	color: #c1c1c1;
+}
+
+/*=======================
+	Home-Page
+================================*/
+
+/*-------------------------
+	Banner
+-------------------------------*/
+.banner-section {
+  background-image: url("../images/banner-image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px 0;
+  position: relative;
+  height: 1000px, width: 1000px;
+}
+
+.banner-section::after {
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 7px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.banner_content {
+  padding-left: 40px;
+}
+
+.banner_content h1 {
+  width: 700px;
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.banner_content p {
+  width: 500px;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+  background-color: #ffffff;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+/*-----------------
+	Button
+-------------------------*/
+
+.btn {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 30px;
+  padding: 3px;
+  margin: auto;
+}
+
+.btn .fa {
+  font-size: 20px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.btn.btn-lg {
+	font-size: 28px;
+	line-height: 35px;
+	padding: 25px 83px;
+}
+
+.btn.btn-lg:hover {
+	background:#c51514
+}
+
+.btn:hover, .btn:focus {
+	color: #ffffff;
+	outline:none;
+}
+
+.btn-link {
+  font-weight: 800;
+}
+
+.btn.outline {
+	background:none;
+	border-style:solid;
+	border-width:1px;
+}
+
+.btn.outline:hover, .btn.outline:focus {
+	color:#fff;
+}
+
+.btn.btn-xs {
+	font-size:12px;
+	padding:0px 25px;
+}
+
+.btn.btn-xs .fa {
+	margin:0 5px;
+	font-size:14px;
+}
+
+.btn.outline.active-btn {
+	border-color:#089901;
+	color:#089901;
+}
+
+.btn.outline.active-btn:hover {
+	background:#089901;
+	color:#fff;
+}
+
+a,
+.btn-link,
+.btn.outline {
+	color:#fa2837;
+	fill: #fa2837;
+}
+
+a:hover, a:focus, .btn-link:hover {
+	color:#ff0012;
+	fill: #ff0012;
+}
+
+.btn,
+.btn.outline:hover,
+.btn.outline:focus {
+  background: #fa2837 none repeat scroll 0 0;
+  fill: #fa2837;
+}
+
+.btn:hover, .btn:focus,
+.search_other:hover {
+	background-color: #c60210;
+	fill: #fb4d59;
+}
+
+/*=======================
+	Featured Products
+================================*/
+
+/*Sets up black box under banner*/
+.section-padding {
+	background-color: black;
+	color: #ffffff;
+	position: relative;
+	padding: 50px;
+}
+
+
+.bgblack{
+  background-color:#000000!important;
+}
